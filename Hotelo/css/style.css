@@ -1,0 +1,961 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* Header code Start */
+
+#header-main {
+    width: 100%;
+    height: 120px;
+    display: inline-block;
+    border-color: #EFEBEB;
+}
+
+.logo-col {
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+}
+
+.logo-main {
+    width: 100%;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.nav-col {
+    width: 60%;
+    float: left;
+    padding: 0 15px;
+}
+
+.nav-main {
+    width: 100%;
+    display: inline-block;
+    padding-top: 48px;
+    text-align: center;
+}
+
+.nav-main ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-main ul li a {
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.nav-main ul li a:hover {
+    color: #24AB70;
+}
+
+.btn-col {
+    width: 20%;
+    float: left ;
+    padding: 0 15px;
+}
+
+.btn-main {
+    width: 100%;
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.btn-main ul li {
+    width: 76px;
+    height: 40px;
+    background-color: #24AB70;
+    padding-top: 10px;
+    float: right;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.btn-main ul li a {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.bar {
+    display: none;
+    font-size: 25px;
+    font-weight: normal;
+    background: none;
+}
+
+.cross {
+    font-size: 25px;
+    display: none;
+    background: none;
+}
+
+
+/* Header code End */
+
+/* Banner Code Start */
+
+#banner-main {
+    width: 100%;
+    height: 656px;
+    display: inline-block;
+}
+
+.banner-txt-col {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.banner-txt-main {
+    width: 100%;
+    height: 656px;
+    display: inline-block;
+    background-color: #24AB700A;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+}
+
+.video {
+    width: 50%;
+    float: left;
+}
+
+.video-main {
+    width: 100%;
+    height: 656px;
+    display: inline-block;
+    padding: 88px 40px 0 60px;
+
+}
+
+.video-main h2 {
+    font-size: 64px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.video-main p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.video-main .play-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 58px;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.video-main .play-btn a {
+    font-family: 'Open Sans', sans-serif;
+    color: #24AB70;
+}
+
+.image {
+    width: 50%;
+    float: left;
+}
+
+.image-main {
+    width: 100%;
+    display: inline-block;
+}
+
+.image-main img{
+    width: 100%;
+    height: 656px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.info {
+    width: 1000px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 280px;
+    box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.08);
+    position: absolute;
+    bottom: 41px;
+    left: 140px;
+}
+
+.info-main {
+    width: 100%;
+    display: inline-block;
+}
+
+.schedule {
+    width: auto;
+    float: left;
+    padding: 0 30px;
+    position: relative;
+}
+
+.schedule-l {
+    width: 100%;
+    display: inline-block;
+    padding-top: 28px;
+    position: relative;
+}
+
+.schedule::after{
+    content: "";
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #E8E8E8;
+
+}
+
+.schedule:nth-child(4):after{
+    display: none;
+
+}
+
+.schedule-main {
+    width: 100%;
+    display: inline-block;
+    padding-top: 28px;
+}
+/* .schedule-main::after{
+    content: "";
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #E8E8E8;
+
+}
+.schedule-main::before{
+    content: "";
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #E8E8E8;
+} */
+
+.schedule-l .fa {
+    color: #24AB70;
+    font-size: 28px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.schedule-info {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.schedule-info h3 {
+    font-size: 20px;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.schedule-info p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.schedule-main .fa {
+    color: #24AB70;
+    font-size: 20px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.schedule-info h3 {
+    font-size: 20px;
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.schedule-info p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.schedule-inp {
+    width: 20%;
+    float: right;
+}
+
+.schedule-input {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    background-color: #24AB70;
+    border-radius: 280px;
+    padding-left: 49px;
+    color: #ffff;
+    padding-top: 38px;
+}
+
+.schedule-input a {
+    color: #ffff;
+}
+
+.schedule-input input {
+    width: 90px;
+    height: 25px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 15px;
+    background: none;
+}
+
+.schedule-input ::placeholder {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* Banner Code End */
+
+/* Popular-Hotel-Banner Code Start */
+
+#popular-hotel-banner {
+    width: 100%;
+    display: inline-block;
+}
+
+.popular-txt-col {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.popular-txt-main {
+    width: 100%;
+    display: inline-block;
+    padding-top: 120px;
+}
+
+.popular-txt-main h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.popular-txt-main p {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #555555;
+}
+
+.popular-txt-main a {
+    width: 109px;
+    height: 40px;
+    border-radius: 280px;
+    background-color: #24AB701A;
+    color: #24AB70;
+    text-align: center;
+    padding-top: 8px;
+    float: right;
+}
+
+.slide-col {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.hotel-col {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.hotel-main {
+    width: 100%;
+    height: 480px;
+    display: inline-block;
+    border-radius: 16px;
+    background-color: #FAFAFA;
+    margin-top: 40px;
+}
+
+.hotel-main img {
+    width: 100%;
+}
+
+.hotel-main .hotel-txt {
+    width: 100%;
+    height: 160px;
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.hotel-main .hotel-txt p {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #24AB70;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.hotel-main .hotel-txt h3 {
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+.hotel-main .hotel-txt h6 {
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    padding-top: 24px;
+    padding-right: 30px;
+}
+
+.hotel-main .hotel-txt ul {
+    padding-left: 31px;
+    display: inline-block;
+}
+
+.hotel-main .hotel-txt ul li {
+    display: inline-block;
+    color: #F95F5F;
+
+}
+
+.hotel-txt ul li h5 {
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hotel-txt ul li h4 {
+    color: #E5E5E5;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.hotel-txt ul {
+    border-left: 1px solid #DDDDDD;
+}
+
+/* Popular-Hotel-Banner Code End */
+
+/* Hotel-Facily-Banner Start */
+
+#hotel-facily-banner {
+    width: 100%;
+    display: inline-block;
+    padding-top: 147px;
+}
+
+.facilities-col {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.facilities-main {
+    width: 100%;
+    display: inline-block;
+}
+
+.facilities-main h3 {
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.facilities-main p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.facilities-main a {
+    display: inline-block;
+    margin-top: 50px;
+    width: 164px;
+    height: 56px;
+    background-color: #24AB70;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.facilities-opt-col {
+    width: 66.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+.facilities-opt-main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.facilities-option {
+    width: 23%;
+}
+
+.facilities-option-main {
+    width: 100%;
+    height: 193px;
+    display: inline-block;
+    padding: 0 20px;
+    border: 1px solid #E8E8E8;
+    text-align: center;
+    padding-top: 51px;
+    border-radius: 8px;
+}
+
+.facilities-option-main h4 {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 28px;
+    padding-bottom: 50px;
+}
+
+#discover-history-banner {
+    width: 100%;
+    display: inline-block;
+    padding-top: 96px;
+}
+
+.discover-col {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.discover-main {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    background-color: #F4FBF8;
+    border-radius: 16px;
+    column-gap: 70px;
+}
+
+.discover-image {
+    width: 50%;
+}
+
+.discover-image img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    object-position: left;
+}
+
+.discover-text {
+    width: 50%;
+    padding: 76px 85px 0 0;
+}
+
+.discover-text h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    font-size: 40px;
+}
+
+.discover-text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0 24px 0;
+}
+
+.discover-text a {
+    width: 167px;
+    height: 56px;
+    border-radius: 35px;
+    background-color: #24AB70;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+#alexander-banner {
+    width: 100%;
+    display: inline-block;
+    padding-top: 120px;
+}
+
+.alexander-col {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.alexander-main {
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    background-color: #FAFAFA;
+    border-radius: 16px;
+}
+
+.alexander-text-col {
+    width: 68%;
+    float: left;
+}
+
+.alexander-text {
+    width: 100%;
+    display: inline-block;
+    padding-left: 109px;
+    padding-top: 68px;
+    padding-right: 132px;
+    position: relative;
+}
+
+.alexander-text p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 57px;
+    line-height: 28px;
+}
+
+.alexander-text p::before {
+    content: "";
+    position: absolute;
+    top: 65px;
+    left: 77px;
+    background-image: url(../images/dot.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 22px;
+}
+
+.alexander-text p::after {
+    content: "";
+    position: absolute;
+    top: 180px;
+    right: 105px;
+    background-image: url(../images/dot2.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 22px;
+}
+
+/* .alexander-text p > span .before {
+    margin-left: -30px;
+} */
+
+.alexander-text h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.alexander-text h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 12px;
+}
+
+.alexander-img-col {
+    width: 32%;
+    float: left;
+}
+
+.alexander-image {
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    border-radius: 16px;
+}
+
+.alexander-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    object-position: right;
+}
+
+#hotelo-brand-banner {
+    width: 100%;
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hotelo-main {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.hotelo-brand-col {
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+}
+
+.hotelo-brand-main {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+#map-banner {
+    width: 100%;
+    display: inline-block;
+}
+
+.map-col {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.map-main {
+    width: 100%;
+    height: 677px;
+    display: inline-block;
+    background-color: #FAFAFA;
+    border-radius: 16px;
+    position: relative;
+}
+
+.map-main img{
+    width: 100%;
+}
+
+.location-info {
+    width: 1194px;
+    height: 199px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 43px;
+    left: 43px;
+    padding: 0 66px;
+}
+
+.location-text {
+    width: 60%;
+    float: left;
+}
+
+.location-text h2 {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 44px;
+
+}
+
+.location-text p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    padding-top: 16px;
+    font-weight: 400;
+    width: 100%;
+    max-width: 510px;
+
+}
+
+.location-btn {
+    width: 40%;
+    float: left;
+    position: relative;
+}
+
+.location-btn input {
+    background-color: #FAFAFA;
+    width: 312px;
+    height: 56px;
+    border-radius: 50px;
+    padding-left: 24px;
+    padding-right: 60px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.location-btn button {
+    width: 124px;
+    height: 56px;
+    background-color: #24AB70;
+    border-radius: 50px;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+#footer-main {
+    width: 100%;
+    display: inline-block;
+    padding-top: 120px;
+    padding-bottom: 63px;
+}
+
+.footer-social-col {
+    width: 34%;
+    float: left;
+    padding: 0 15px;
+}
+
+.footer-social-main {
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-social-main p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 24px;
+    color: #555555;
+    width: 100%;
+    max-width: 264px;
+}
+
+.footer-social-main ul {
+    padding-top: 32px;
+}
+
+.footer-social-main ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.footer-info-col {
+    width: 22%;
+    float: left;
+    padding: 0 15px;
+}
+
+.footer-info-main {
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-info-main h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 24px;
+    padding-top: 8px;
+}
+
+.footer-info-main ul li {
+    padding-bottom: 16px;
+}
+
+.footer-info-main ul li a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #222222;
+}
+
+.footer-info-main ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.slick-prev:before, .slick-next:before {
+    color: #000;
+    font-size: 30px;
+}
+
+.slick-dots li button:before {
+    font-size: 35px;
+}
+
+.slick-prev {
+    left: -35px;
+}
+
+/* .slick-next {
+    right: 25px;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(0, 34, 19, 0.8);
+    color: transparent;
+} */
+
+.slider-show-col {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.slider-show-main {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}

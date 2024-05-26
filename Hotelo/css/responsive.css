@@ -1,0 +1,970 @@
+@media screen and (max-width: 1309px) {
+    .video-main h2 {
+        font-size: 62px;
+    }
+
+    .popular-txt-main {
+        padding-top: 30px;
+    }
+
+    #hotel-facily-banner {
+        padding-top: 50px;
+    }
+
+    .facilities-main h3 {
+        font-size: 39px;
+    }
+
+    #discover-history-banner {
+        padding-top: 35px;
+    }
+
+    .alexander-text p::after {
+        left: 300px;
+        top: 210px;
+    }
+
+    #hotelo-brand-banner {
+        padding: 20px 0;
+    }
+
+    .map-main {
+        height: 645px;
+    }
+
+    .location-info {
+        left: 25px;
+    }
+
+    #footer-main {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .video-main h2 {
+        font-size: 56px;
+    }
+
+    .info {
+        left: 70px;
+    }
+
+    .video-main {
+        padding: 55px 40px 0 60px;
+    }
+
+    #banner-main {
+        height: 570px;
+    }
+
+    .banner-txt-main {
+        height: 570px;
+    }
+
+    .image-main img {
+        height: 570px;
+    }
+
+    .popular-txt-main {
+        padding-top: 30px;
+    }
+
+    .popular-txt-main {
+        padding-top: 20px;
+    }
+
+    .popular-txt-main p {
+        padding-top: 10px;
+    }
+
+    .hotel-main {
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .hotel-main .hotel-txt h6 {
+        padding-top: 15px;
+    }
+
+    .hotel-main .hotel-txt h3 {
+        font-size: 23px;
+    }
+
+    #hotel-facily-banner {
+        padding-top: 50px;
+    }
+
+    #discover-history-banner {
+        padding-top: 55px;
+    }
+
+    #alexander-banner {
+        padding-top: 60px;
+    }
+
+    .alexander-text p::after {
+        top: 210px;
+        right: 125px;
+    }
+
+    .facilities-main h3 {
+        font-size: 36px;
+    }
+
+    .map-main {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .location-info {
+        width: 100%;
+        left: 0;
+        border-radius: unset;
+        bottom: 0;
+        padding: 0;
+    }
+
+    #footer-main {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    #banner-main {
+        height: 480px;
+    }
+
+    .video-main h2 {
+        font-size: 48px;
+    }
+
+    .video-main {
+        padding: 35px 40px 0 60px;
+    }
+
+    .video-main p {
+        padding-top: 20px;
+    }
+
+    .video-main .play-btn {
+        margin-top: 30px;
+    }
+
+    .banner-txt-main {
+        height: 375px;
+    }
+
+    .image-main {
+        overflow: hidden;
+        border-top-right-radius: 50px;
+    }
+
+    .image-main img {
+        height: 375px;
+    }
+
+    .hotel-main .hotel-txt h6 {
+        padding-right: 25px;
+    }
+
+    .hotel-main .hotel-txt h3 {
+        font-size: 20px;
+    }
+
+    .hotel-main .hotel-txt ul {
+        padding-left: 20px;
+    }
+
+    .info {
+        width: 100%;
+        left: 0;
+        border-radius: unset;
+        background: none;
+        box-shadow: none;
+        bottom: -120px;
+    }
+
+    .schedule-input {
+        height: 70px;
+        padding-top: 23px;
+        margin-top: 15px;
+    }
+
+    #hotel-facily-banner {
+        padding-top: 30px;
+    }
+
+    .facilities-main h3 {
+        font-size: 31px;
+    }
+
+    .facilities-opt-main {
+        gap: 15px;
+    }
+
+    .facilities-main a {
+        margin-top: 30px;
+    }
+
+    .discover-text h2 {
+        font-size: 38px;
+    }
+
+    .alexander-text p::after {
+        top: 265px;
+        right: 355px;
+    }
+
+    .alexander-text p {
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video-main h2 {
+        font-size: 45px;
+    }
+
+    .banner-txt-main {
+        height: 345px;
+    }
+
+    .image-main img {
+        height: 345px;
+    }
+
+    .schedule:first-child {
+        padding-left: 0;
+    }
+
+    #banner-main {
+        height: 460px;
+    }
+
+    .popular-txt-main {
+        padding-top: 0;
+    }
+
+    .popular-txt-main h2 {
+        font-size: 35px;
+    }
+
+    .hotel-main .hotel-txt {
+        padding: 0 5px;
+    }
+
+    .hotel-main .hotel-txt {
+        height: 125px;
+    }
+
+    .hotel-main .hotel-txt p {
+        padding-top: 15px;
+    }
+
+    .discover-text h2 {
+        font-size: 36px;
+    }
+
+    .alexander-main {
+        overflow: hidden;
+    }
+
+    .alexander-text {
+        padding: 45px;
+    }
+
+    .alexander-text p::before {
+        top: 45px;
+        left: 15px;
+    }
+
+    .alexander-text p::after {
+        top: 185px;
+        right: 245px;
+    }
+
+    .alexander-image img {
+        object-position: center;
+    }
+
+    #hotelo-brand-banner {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav-main ul li {
+        padding: 0 10px;
+    }
+
+    .banner-txt-main {
+        height: 250px;
+        border-bottom-left-radius: 50px;
+    }
+
+    .video {
+        width: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1111;
+        height: 250px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+
+    .image {
+        width: 100%;
+        position: relative;
+    }
+
+    .video-main {
+        height: auto;
+        padding: 35px 62px 0 60px
+    }
+
+    .image-main img {
+        height: 250px;
+    }
+
+    .video-main h2 {
+        color: #fff;
+    }
+
+    .video-main p {
+        color: #fff;
+    }
+
+    .info {
+        z-index: 11111;
+    }
+
+    .schedule {
+        width: 33.33%;
+    }
+
+    .schedule:nth-child(4) {
+        padding-left: 0;
+    }
+
+    .facilities-opt-main {
+        padding-top: 20px;
+    }
+
+    .schedule::after {
+        display: none;
+    }
+
+    .schedule-inp {
+        width: 66.66%;
+    }
+
+    .schedule-input input {
+        width: calc(100% - 70px);
+        height: auto;
+    }
+
+    .popular-txt-main h2 {
+        font-size: 32px;
+    }
+
+    .hotel-main .hotel-txt h6 {
+        padding-right: 5px;
+        font-size: 15px;
+    }
+
+    .hotel-main .hotel-txt ul {
+        padding-left: 5px;
+    }
+
+    .hotel-main .hotel-txt h3 {
+        font-size: 17px;
+    }
+
+    .facilities-opt-main {
+        gap: 14px;
+    }
+
+    .discover-text {
+        padding-right: 35px;
+    }
+
+    .discover-text h2 {
+        font-size: 34px;
+    }
+
+    .alexander-text p::after {
+        top: 215px;
+        right: 20px;
+    }
+
+    .location-btn button {
+        right: 10px;
+    }
+
+    .location-text h2 {
+        padding-top: 25px;
+    }
+
+    .location-btn button,
+    .location-btn input {
+        top: 80px;
+    }
+
+    .image-main {
+        border-bottom-left-radius: 65px;
+    }
+}
+
+@media screen and (max-width: 839px) {
+    .video-main {
+        padding: 20px 40px 0 60px;
+    }
+
+    .video-main h2 {
+        font-size: 42px;
+    }
+
+    .video-main p {
+        padding-top: 10px;
+    }
+
+    .video-main .play-btn {
+        margin-top: 20px;
+    }
+
+    .info {
+        bottom: -100px;
+    }
+
+    #banner-main {
+        height: 425px;
+    }
+
+    .hotel-col {
+        width: 100%;
+    }
+
+    .hotel-main {
+        overflow: hidden;
+    }
+
+    .hotel-main img {
+        height: 210px;
+    }
+
+    .popular-txt-main h2 {
+        font-size: 30px;
+    }
+
+    .hotel-main .hotel-txt h3 {
+        font-size: 20px;
+    }
+
+    .hotel-main .hotel-txt h6 {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .hotel-main .hotel-txt ul {
+        padding-left: 10px;
+    }
+
+    .facilities-opt-main {
+        gap: 12px;
+    }
+
+    .facilities-option-main {
+        padding: 0 15px;
+        padding-top: 51px;
+    }
+
+    .facilities-col {
+        width: 100%;
+    }
+
+    .facilities-opt-col {
+        width: 100%;
+    }
+
+    .facilities-main p {
+        display: inline-block;
+    }
+
+    .discover-main {
+        column-gap: 40px;
+    }
+
+    .discover-text h2 {
+        font-size: 32px;
+    }
+
+    .discover-text {
+        padding-top: 50px;
+    }
+
+    .alexander-text p::after {
+        top: 245px;
+        right: 35px;
+    }
+
+    .location-btn input {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-col {
+        width: 50%;
+    }
+
+    .btn-col {
+        width: 30%;
+    }
+
+    .bar {
+        display: unset;
+        position: absolute;
+        top: 45px;
+        right: 20px;
+        z-index: 111;
+    }
+
+    .nav-main {
+        text-align: left;
+    }
+
+    .nav-main ul {
+        display: none;
+        position: absolute;
+        width: 300px;
+        height: 100%;
+        background-color: lightskyblue;
+        top: 125px;
+        right: 0;
+        z-index: 111111;
+    }
+
+    .btn-main ul li {
+        float: left;
+    }
+
+    .open-menu ul {
+        display: unset;
+    }
+
+    .open-menu .cross {
+        display: unset;
+        position: absolute;
+        top: 45px;
+        right: 20px;
+    }
+
+    .open-menu .bar {
+        display: none;
+    }
+
+    .nav-main ul li {
+        width: 100%;
+        padding: 10px 10px 10px 20px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .video-main h2 {
+        font-size: 34px;
+    }
+
+    #hotel-facily-banner {
+        padding-top: 20px;
+    }
+
+    .popular-txt-main p {
+        max-width: 490px;
+    }
+
+    .hotel-main .hotel-txt h3 {
+        font-size: 19px;
+    }
+
+    .facilities-main a {
+        margin-top: 20px;
+    }
+
+    .facilities-opt-main {
+        padding-top: 15px;
+    }
+
+    .facilities-main p {
+        width: 70%;
+    }
+
+    .facilities-main a {
+        float: right;
+    }
+
+    .discover-text h2 {
+        color: #fff;
+    }
+
+    .discover-text p {
+        color: #fff;
+    }
+
+    .discover-main {
+        position: relative;
+        overflow: hidden;
+        height: 420px;
+    }
+
+    .discover-image {
+        width: 100%;
+    }
+
+    .discover-text {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    #discover-history-banner {
+        padding-top: 35px;
+    }
+
+    .alexander-main {
+        position: relative;
+    }
+
+    .alexander-text-col {
+        width: 100%;
+    }
+
+    .alexander-img-col {
+        width: 100%;
+    }
+
+    .alexander-image {
+        position: absolute;
+        bottom: 15px;
+        right: 100px;
+        z-index: 111;
+    }
+
+    .alexander-image img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .alexander-text p::after {
+        top: 215px;
+        left: 200px;
+    }
+
+    .location-text h2 {
+        padding-top: 15px;
+        font-size: 32px;
+    }
+
+    .location-btn button {
+        right: 0;
+    }
+
+    .location-btn input {
+        width: 240px;
+    }
+
+    .location-btn button {
+        width: 100px;
+    }
+
+    /* .hotelo-brand-main img {
+        width: 100%;
+    } */
+
+    .footer-social-col {
+        width: 50%;
+    }
+
+    .footer-info-col {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .video-main h2 {
+        font-size: 30px;
+    }
+
+    .schedule {
+        padding: 0 20px;
+    }
+
+    .schedule:nth-child(4) {
+        padding-left: 0;
+    }
+
+    .popular-txt-main p {
+        max-width: 425px;
+    }
+
+    .hotel-main .hotel-txt h3 {
+        font-size: 17px;
+    }
+
+    .hotel-main .hotel-txt ul {
+        padding-left: 5px;
+    }
+
+    .hotel-main .hotel-txt h6 {
+        padding-right: 5px;
+    }
+
+    .facilities-main h3 {
+        font-size: 28px;
+    }
+
+    .facilities-main p {
+        width: 69%;
+    }
+
+    .facilities-main p {
+        padding-top: 10px;
+    }
+
+    .alexander-text p::after {
+        top: 240px;
+        left: 110px;
+    }
+
+    .alexander-image {
+        bottom: 5px;
+    }
+
+    .hotelo-brand-col {
+        width: 33.33%;
+    }
+
+    .location-text h2 {
+        font-size: 28px;
+    }
+
+    .location-btn input {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .nav-col {
+        width: 40%;
+    }
+
+    .btn-col {
+        width: 40%;
+    }
+
+    .video-main h2 {
+        font-size: 25px;
+    }
+
+    .video-main p {
+        font-size: 18px;
+    }
+
+    .video-main {
+        padding: 20px 40px 0 40px;
+    }
+
+    #banner-main {
+        height: 490px;
+    }
+
+    .schedule {
+        width: 50%;
+    }
+
+    .schedule:nth-child(3) {
+        padding-left: 0;
+    }
+
+    .schedule:nth-child(4) {
+        padding-left: 20px;
+    }
+
+    .schedule-inp {
+        width: 100%;
+    }
+
+    .popular-txt-main h2 {
+        font-size: 26px;
+    }
+
+    .popular-txt-main a {
+        margin-top: 10px;
+    }
+
+    .hotel-col {
+        width: 100%;
+    }
+
+    .hotel-main .hotel-txt h3 {
+        font-size: 20px;
+    }
+
+    .facilities-option {
+        width: 31%;
+    }
+
+    .facilities-opt-main {
+        justify-content: flex-start;
+    }
+
+    .facilities-main p {
+        width: 55%;
+    }
+
+    .discover-text {
+        padding-top: 30px;
+    }
+
+    .discover-text p {
+        padding: 10px 0 10px 0;
+    }
+
+    .alexander-text {
+        padding-top: 25px;
+    }
+
+    .alexander-text p {
+        line-height: unset;
+    }
+
+    .alexander-image img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .alexander-image {
+        right: 30px;
+    }
+
+    .alexander-text p::before {
+        top: 25px;
+    }
+
+    .alexander-text p::after {
+        top: 245px;
+        left: 325px;
+    }
+
+    .map-main {
+        height: 400px;
+    }
+
+    .location-info {
+        height: 270px;
+    }
+
+    .location-text {
+        width: 100%;
+    }
+
+    .location-btn {
+        width: 100%;
+    }
+
+    .location-btn input {
+        top: 10px;
+    }
+
+    .location-btn button {
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    #banner-main {
+        height: 510px;
+    }
+
+    .schedule {
+        padding: 0 10px;
+    }
+
+    .facilities-main p {
+        width: 100%;
+    }
+
+    .facilities-option {
+        width: 48%;
+    }
+
+    .facilities-main a {
+        margin-top: 0;
+    }
+
+    .schedule-info {
+        width: calc(100% - 24px);
+    }
+
+    .schedule {
+        padding: 0 0;
+    }
+
+    .schedule:nth-child(4) {
+        padding-left: 4px;
+    }
+
+    .discover-text h2 {
+        font-size: 27px;
+    }
+
+    .hotelo-brand-col {
+        width: 50%;
+    }
+
+    .location-btn input {
+        width: 220px;
+        padding-right: 15px;
+    }
+
+    .map-main {
+        height: 380px;
+    }
+
+    .location-info {
+        height: 220px;
+    }
+
+    .footer-info-main {
+        height: 233px;
+    }
+
+    .facilities-option-main {
+        padding-top: 20px;
+        height: 150px;
+    }
+
+    .facilities-option-main h4 {
+        padding: 15px 0;
+    }
+
+    .alexander-text p {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .alexander-text p::after {
+        top: 200px;
+        left: 280px;
+    }
+
+    .alexander-image {
+        bottom: 20px;
+    }
+}
